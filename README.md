@@ -13,7 +13,7 @@ The official landing page for the **Little One's Learning Academy (LOLA)** YouTu
 
 | 🖥️ Desktop | 📱 Mobile |
 |---|---|
-| ![Desktop preview](preview/home.png) | ![Mobile preview](preview/mobile.png) |
+| ![Desktop preview](preview/home.png) | ![Mobile preview](preview/mobile-home.png) |
 
 ---
 
