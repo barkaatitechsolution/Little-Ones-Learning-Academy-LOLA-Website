@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Little One's Learning Academy (LOLA) — Fun Learning for Little Ones</title>
+<meta name="description" content="Little One's Learning Academy (LOLA) makes learning fun for toddlers and kids with playful videos on ABCs, numbers, colors and more. Subscribe today!" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>" />
+
+<!-- ============================================================
+     LITTLE ONE'S LEARNING ACADEMY (LOLA) — LANDING PAGE
+     HOW TO EDIT YOUR INFO:
+       1. Scroll to the CONFIG section in <script> at the bottom.
+       2. Replace CHANNEL_URL, SUBSCRIBE_URL, CHANNEL_HANDLE.
+       3. Add your real YouTube video IDs to VIDEO_IDS.
+       4. Replace placeholder images (YOUR_IMAGE_1... ) with
+          your own thumbnail URLs or leave them to use auto-generics.
+============================================================ -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<div class="blob blob-1"></div>
+<div class="blob blob-2"></div>
+<div class="blob blob-3"></div>
+
+<!-- ================= NAVBAR ================= -->
+<nav>
+  <div class="container nav-inner">
+    <a href="#" class="logo"><span class="logo-emoji">🎨</span> LOLA</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#learn">What We Learn</a>
+      <a href="#videos">Videos</a>
+      <a href="pdfs.html">Free PDFs</a>
+      <a href="#why-subscribe">Why Subscribe</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#" class="nav-cta" id="navSubscribeBtn">Subscribe 🎬</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="top">
+  <div class="container">
+    <span class="hero-badge">🌟 Fun Learning • Kids &amp; Toddlers • Ages 2–6</span>
+    <h1>
+      Little One's Learning Academy<br />
+      <span class="accent">LOLA</span> makes learning <span class="accent2">magical!</span>
+    </h1>
+    <p class="tagline">
+      Join us on a colorful journey of ABCs, numbers, shapes, colors and songs —
+      where every little one becomes a happy little learner. 🚀
+    </p>
+    <div class="hero-buttons">
+      <a href="#" class="btn btn-primary" id="heroSubscribeBtn">▶ Subscribe on YouTube</a>
+      <a href="#videos" class="btn btn-secondary">Watch Videos 🎥</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><b>10K+</b><span>Subscribers</span></div>
+      <div class="stat"><b>50+</b><span>Videos</span></div>
+      <div class="stat"><b>1M+</b><span>Views</span></div>
+      <div class="stat"><b>4.9★</b><span>Love from Parents</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= LEARNING PILLARS ================= -->
+<section id="learn">
+  <div class="container">
+    <div class="section-title reveal">
+      <span class="kicker">What we learn</span>
+      <h2>Playing today, learning forever 🧠</h2>
+    </div>
+    <div class="pillars">
+      <div class="pillar reveal">
+        <span class="emoji">🔤</span>
+        <h3>ABCs &amp; Phonics</h3>
+        <p>Letters, sounds and first words made fun with catchy songs.</p>
+      </div>
+      <div class="pillar reveal">
+        <span class="emoji">🔢</span>
+        <h3>Numbers &amp; Counting</h3>
+        <p>Counting, shapes and simple math through playful stories.</p>
+      </div>
+      <div class="pillar reveal">
+        <span class="emoji">🎨</span>
+        <h3>Colors &amp; Art</h3>
+        <p>Bright colors, drawing and creative crafts to spark imagination.</p>
+      </div>
+      <div class="pillar reveal">
+        <span class="emoji">😊</span>
+        <h3>Songs &amp; Social Skills</h3>
+        <p>Nursery rhymes, manners and emotions — learning with heart.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VIDEOS ================= -->
+<section id="videos" style="background:#fff;">
+  <div class="container">
+    <div class="section-title reveal">
+      <span class="kicker">Fresh uploads</span>
+      <h2>Latest videos from LOLA 🎬</h2>
+    </div>
+    <div class="videos" id="videoGrid">
+      <!-- Videos are injected by JavaScript below -->
+    </div>
+  </div>
+</section>
+
+<!-- ================= FREE RESOURCES CTA ================= -->
+<section id="resources" style="background:#fff;">
+  <div class="container">
+    <div class="pdf-cta reveal">
+      <div class="pdf-cta-left">
+        <span class="big-emoji">📚</span>
+        <div>
+          <span class="kicker" style="display:inline-block;">Free printables</span>
+          <h2 style="font-size:clamp(1.5rem,3.5vw,2.1rem);margin-top:6px;">Free learning PDFs for your little one</h2>
+          <p style="color:#5a5d75;max-width:520px;">Animal charts, alphabets, fruits and more. Download any chart straight from Google Drive, or get it delivered to your email — it's all free.</p>
+        </div>
+      </div>
+      <a href="pdfs.html" class="btn btn-secondary">Browse Free PDFs 📥</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SUBSCRIBE ================= -->
+<section id="why-subscribe">
+  <div class="container">
+    <div class="subscribe-band reveal">
+      <span class="big-emoji">👶</span>
+      <h2>Subscribe &amp; never miss a lesson!</h2>
+      <p>
+        Every week we bring new adventures in learning. Join the LOLA family and
+        give your little one a head start full of giggles and growth.
+      </p>
+      <div class="benefits">
+        <div class="benefit">🆕 New videos every week</div>
+        <div class="benefit">🔔 Stay in the loop</div>
+        <div class="benefit">💡 Screen-time that teaches</div>
+        <div class="benefit">❤️ Free forever, family-friendly</div>
+      </div>
+      <a href="#" class="btn btn-primary" id="bandSubscribeBtn">🔔 Subscribe Now — It's Free!</a>
+      <div class="sub-count">Join <b id="subCount">10,000+</b> happy families already learning with LOLA!</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section id="reviews" style="background:#fff;">
+  <div class="container">
+    <div class="section-title reveal">
+      <span class="kicker">Happy families</span>
+      <h2>What parents &amp; little ones say 💕</h2>
+    </div>
+    <div class="testimonials">
+      <div class="testimonial reveal">
+        <div class="stars">★★★★★</div>
+        <p>"My 3-year-old learned all his letters in a month. He asks to watch LOLA every day!"</p>
+        <div class="who"><span class="avatar" style="background:var(--orange);">S</span> Sarah M., Mom of Leo</div>
+      </div>
+      <div class="testimonial reveal">
+        <div class="stars">★★★★★</div>
+        <p>"Finally, educational screen-time I feel good about. Bright, calm and genuinely fun."</p>
+        <div class="who"><span class="avatar" style="background:var(--teal);">D</span> Daniel R., Dad of Aya</div>
+      </div>
+      <div class="testimonial reveal">
+        <div class="stars">★★★★★</div>
+        <p>"The songs are so catchy, we sing them at dinner! Our whole family is subscribed."</p>
+        <div class="who"><span class="avatar" style="background:var(--pink);">P</span> Priya K., Mom of twins</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <a href="#top" class="logo"><span class="logo-emoji">🎨</span> LOLA</a>
+      <div class="footer-links">
+        <a href="#learn">What We Learn</a>
+        <a href="#videos">Videos</a>
+        <a href="pdfs.html">Free PDFs</a>
+        <a href="#why-subscribe">Subscribe</a>
+        <a href="#reviews">Reviews</a>
+      </div>
+      <div class="footer-social">
+        <a href="#" id="footerYouTube" aria-label="YouTube">▶️</a>
+        <a href="#" id="footerInstagram" aria-label="Instagram">📸</a>
+        <a href="#" id="footerFacebook" aria-label="Facebook">👍</a>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Little One's Learning Academy (LOLA). Made with ❤️ for little learners everywhere.</p>
+  </div>
+</footer>
+
+<a href="#" class="floating-sub" id="floatingSubscribeBtn">🔔 Subscribe</a>
+
+<script>
+  /* ============================================================
+     CONFIG — EDIT YOUR CHANNEL & VIDEOS HERE
+     ============================================================ */
+  const CHANNEL_URL = "https://www.youtube.com/@LittleOnesLearningAcademy"; // 👈 Your channel URL
+  const SUBSCRIBE_URL = CHANNEL_URL; // 🔔 Where subscribe buttons point
+  const INSTAGRAM_URL = "https://www.instagram.com/your_handle";   // 👈 Optional
+  const FACEBOOK_URL = "https://www.facebook.com/your_page";       // 👈 Optional
+
+  // 🎬 Add your real YouTube VIDEO IDs below (the part after watch?v=).
+  //    Example: "dQw4w9WgXcQ". Add or remove entries as needed.
+  const VIDEO_IDS = [
+    "YOUR_VIDEO_ID_1",
+    "YOUR_VIDEO_ID_2",
+    "YOUR_VIDEO_ID_3",
+    "YOUR_VIDEO_ID_4",
+    "YOUR_VIDEO_ID_5",
+    "YOUR_VIDEO_ID_6"
+  ];
+
+  // Titles & descriptions shown on each card (keep in same order as VIDEO_IDS).
+  const VIDEO_META = [
+    { title: "ABC Song for Kids 🎵", desc: "Sing along and learn the alphabet with LOLA!" },
+    { title: "Count 1 to 10 with LOLA 🔢", desc: "Fun counting adventure with friendly animals." },
+    { title: "Learn Colors — Rainbow Fun 🎨", desc: "Bright colors, playful surprises, big smiles." },
+    { title: "Shapes Around Us ⭐", desc: "Circles, squares and stars — a shape safari." },
+    { title: "Nursery Rhymes Compilation 🎶", desc: "Classic rhymes your little one will love." },
+    { title: "Phonics: First Words 🔤", desc: "Sound out letters and read your first words!" }
+  ];
+
+  // Placeholder images (only used if you leave VIDEO_IDS as placeholders).
+  // Replace with your real thumbnail URLs, e.g. "https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg"
+  const PLACEHOLDER_THUMBS = [
+    "https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+    "https://img.youtube.com/vi/5qap5aO4i9A/hqdefault.jpg",
+    "https://img.youtube.com/vi/pdqCbC0gErI/hqdefault.jpg",
+    "https://img.youtube.com/vi/9bZkp7q19f0/hqdefault.jpg",
+    "https://img.youtube.com/vi/jNQXAC9IVRw/hqdefault.jpg",
+    "https://img.youtube.com/vi/kJQP7kiw5Fk/hqdefault.jpg"
+  ];
+
+  const EMBED_BASE = "https://www.youtube.com/embed/";
+
+  /* ============================================================
+     WIRE-UP — no need to edit below this line
+     ============================================================ */
+
+  // Point every subscribe button & social icon at the configured URLs
+  document.querySelectorAll("#navSubscribeBtn, #heroSubscribeBtn, #bandSubscribeBtn, #floatingSubscribeBtn").forEach(btn => {
+    btn.href = SUBSCRIBE_URL;
+    btn.target = "_blank";
+    btn.rel = "noopener";
+  });
+  document.getElementById("footerYouTube").href = CHANNEL_URL;
+  document.getElementById("footerInstagram").href = INSTAGRAM_URL;
+  document.getElementById("footerFacebook").href = FACEBOOK_URL;
+
+  // Build the video grid
+  const grid = document.getElementById("videoGrid");
+  VIDEO_IDS.forEach((id, i) => {
+    const meta = VIDEO_META[i] || { title: "LOLA Video", desc: "A fun new lesson from Little One's Learning Academy!" };
+
+    if (id && id !== "YOUR_VIDEO_ID_" + (i + 1)) {
+      // Real video ID — lazy-load the player when the thumbnail is clicked
+      const thumb = `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
+      grid.insertAdjacentHTML("beforeend", `
+        <article class="video-card reveal">
+          <div class="video-thumb" data-embed="${EMBED_BASE}${id}">
+            <img src="${thumb}" alt="${meta.title}" loading="lazy" />
+            <span class="play-btn">▶</span>
+          </div>
+          <div class="info">
+            <h3>${meta.title}</h3>
+            <p>${meta.desc}</p>
+          </div>
+        </article>
+      `);
+    } else {
+      // Placeholder video — show a pretty card that links to the channel
+      grid.insertAdjacentHTML("beforeend", `
+        <article class="video-card reveal">
+          <a class="video-thumb" href="${CHANNEL_URL}" target="_blank" rel="noopener">
+            <img src="${PLACEHOLDER_THUMBS[i]}" alt="${meta.title}" loading="lazy" />
+            <span class="play-btn">▶</span>
+          </a>
+          <div class="info">
+            <h3>${meta.title}</h3>
+            <p>${meta.desc}</p>
+          </div>
+        </article>
+      `);
+    }
+  });
+
+  // Click-to-play: swap the thumbnail for the embedded player
+  grid.addEventListener("click", (e) => {
+    const thumb = e.target.closest(".video-thumb");
+    if (!thumb || !thumb.dataset.embed) return;
+    thumb.innerHTML = `<iframe src="${thumb.dataset.embed}?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+  });
+
+  // Reveal-on-scroll animation
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+
+  // Mobile drawer: slides in from the right, slides out to the right
+  const drawer = document.getElementById("navLinks");
+  const backdrop = document.createElement("div");
+  backdrop.className = "drawer-backdrop";
+  document.body.appendChild(backdrop);
+
+  function openDrawer() {
+    drawer.classList.add("open");
+    backdrop.classList.add("show");
+    document.body.style.overflow = "hidden";
+  }
+  function closeDrawer() {
+    drawer.classList.remove("open");
+    backdrop.classList.remove("show");
+    document.body.style.overflow = "";
+  }
+
+  document.getElementById("menuToggle").addEventListener("click", () => {
+    if (drawer.classList.contains("open")) closeDrawer();
+    else openDrawer();
+  });
+
+  backdrop.addEventListener("click", closeDrawer);
+  drawer.querySelectorAll("a").forEach(link => link.addEventListener("click", closeDrawer));
+</script>
+
+</body>
+</html>
